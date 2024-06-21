@@ -20,7 +20,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
         to: '/dashboard',
       }"
     />
-    <VerticalNavLink
+    <!-- <VerticalNavLink
       :item="{
         title: 'CRM',
         target: '_blank',
@@ -42,7 +42,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       :item="{
         title: 'Logistics',
       }"
-    />
+    /> -->
   </VerticalNavGroup>
 
   <!-- 👉 Front Pages -->
@@ -52,7 +52,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       icon: 'ri-file-copy-line',
     }"
   >
-    <VerticalNavLink
+    <!-- <VerticalNavLink
       :item="{
         title: 'Landing',
         target: '_blank',
@@ -81,7 +81,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
         title: 'Help Center',
         target: '_blank',
       }"
-    />
+    /> -->
   </VerticalNavGroup>
 
   <!-- 👉 Apps & Pages -->
@@ -90,7 +90,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       heading: 'Apps & Pages',
     }"
   />
-  <VerticalNavLink
+  <!-- <VerticalNavLink
     :item="{
       title: 'Permissions',
       icon: 'ri-lock-2-line',
@@ -126,7 +126,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       badgeContent: 'Pro',
       badgeClass: 'bg-light-primary text-primary',
     }"
-  />
+  /> -->
 
   <VerticalNavLink
     :item="{
@@ -199,7 +199,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       to: '/form-layouts',
     }"
   />
-  <VerticalNavLink
+  <!-- <VerticalNavLink
     :item="{
       title: 'Form Validation',
       icon: 'ri-checkbox-multiple-line',
@@ -218,7 +218,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       badgeContent: 'Pro',
       badgeClass: 'bg-light-primary text-primary',
     }"
-  />
+  /> -->
   <VerticalNavLink
     :item="{
       title: 'Tables',
@@ -233,7 +233,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       heading: 'Others',
     }"
   />
-  <VerticalNavLink
+  <!-- <VerticalNavLink
     :item="{
       title: 'Access Control',
       icon: 'ri-shield-line',
@@ -242,7 +242,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue';
       badgeContent: 'Pro',
       badgeClass: 'bg-light-primary text-primary',
     }"
-  />
+  /> -->
   <VerticalNavLink
     :item="{
       title: 'Documentation',
